@@ -50,7 +50,7 @@
   width: 100%;
   height: 600px;
   
-  background-image: url("images/fondobody.avif");
+  background-image: url("/images/fondobody.avif");
   background-repeat: no-repeat;
   background-position: center center;
   background-size:cover;
@@ -82,8 +82,9 @@
 
 .foot {
   min-height: 100px;
-  background-image: url("images/joyasfooter.jpg");
+  background-image: url("/images/joyasfooter.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
+

@@ -7,7 +7,7 @@ const NavBar = () => {
             <div id="contenedor1" className="container">
                 <div className="row">
                     <div className="col">
-                    <img src="images/diamante.png" alt="logodiamante" width={100}/>
+                    <img src="./images/joyas1.avif" alt="logodiamante" width={100}/>
                     </div>
                     <div className="col">
                         <ul className="nav justify-content-center">
