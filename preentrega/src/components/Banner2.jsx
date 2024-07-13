@@ -1,3 +1,7 @@
+import imgCarU from "../assets/images/anillocorazones.jpeg"
+import imgCarD from "../assets/images/anillorombo.jpeg"
+import imgCarT from "../assets/images/anillosello.jpeg"
+
 const Banner2 = () => {
 
     return (
@@ -7,13 +11,13 @@ const Banner2 = () => {
             <div id="carouselExampleFade" className="carousel slide carousel-fade ">
                 <div className="carousel-inner pb-20">
                     <div className="carousel-item active ">
-                        <img src="../images/anilloarbol.jpeg" className="d-block w-60 " alt="..."/>
+                        <img src={imgCarU} className="d-block w-60 " alt="anillocorazones"/>
                     </div>
                     <div className="carousel-item">
-                        <img src="../images/anillocorazones.jpeg" className="d-block w-60 " alt="..."/>
+                        <img src={imgCarD} className="d-block w-60 " alt="anillorombo"/>
                     </div>
                     <div className="carousel-item">
-                        <img src="../images/anillosello.jpeg" className="d-block w-60 " alt="..."/>
+                        <img src={imgCarT} className="d-block w-60 " alt="anillosello"/>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -25,6 +29,11 @@ const Banner2 = () => {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
+
+            
+            </section>
+            <section>
+                <img src="images/joyas4.avif" alt=""/>
             </section>
         </>
     )

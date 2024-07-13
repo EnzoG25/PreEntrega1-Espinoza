@@ -1,5 +1,5 @@
 import CardWidget from "./CardWidget"
-
+import imagend from "../assets/images/diamante.png"
 const NavBar = () => {
 
     return (
@@ -7,7 +7,7 @@ const NavBar = () => {
             <div id="contenedor1" className="container">
                 <div className="row">
                     <div className="col">
-                    <img src="./images/joyas1.avif" alt="logodiamante" width={100}/>
+                    <img src={imagend} alt="logodiamante" width={100}/>
                     </div>
                     <div className="col">
                         <ul className="nav justify-content-center">
