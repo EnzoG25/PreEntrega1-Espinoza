@@ -18,7 +18,7 @@ const NavBar = () => {
                                 <a className="nav-link text-black" href="#">Pulseras</a>
                             </li>
                             <li className="nav-item text-black">
-                                <a className="nav-link text-black" href="#">Collares</a>
+                                <a className="nav-link text-black" href="#">Cadenas</a>
                             </li>
                             <li className="nav-item text-black">
                                 <a className="nav-link text-black"  href="#">Dijes</a>

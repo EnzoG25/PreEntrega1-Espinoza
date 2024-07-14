@@ -1,0 +1,43 @@
+
+
+[
+    {"id":1 , "title":"Bulgari", "description":"Anillo de plata, talle 6.", 
+    "image":"images/consulta.png", 
+    "prize":3000, "stock":10, "category": "anillos"},
+
+    
+    {"id":2 , "title": "Flor de plata", "description":"Anillo de plata, talle 8", 
+    "image":"images/anilloflor.jpeg", 
+    "prize":4500, "stock":10, "category": "anillos"},
+    {"id":3 , "title": "Moño", "description":"Anillo de plata, talle 8", 
+    "image":"/src/assets/images/anillomono.jpeg", 
+    "prize":5000, "stock":10, "category": "anillos"},
+    {"id":4 , "title": "Cadena Clasica", "description":"Cadena de plata", 
+    "image":"images/cadena.jpeg", 
+    "prize":15000, "stock":5, "category": "cadenas"},
+    {"id":5 , "title": "Eslabones de acero", "description":"Cadena de acero", 
+    "image":"./assets/images/cadenaeslabon.jpeg", 
+    "prize":15600, "stock":7, "category": "cadenas"},
+    {"id":6 , "title": "Cadena perlada", "description":"Cadena de acero y perlas", 
+    "image":"images/cadenaperlas.jpeg", 
+    "prize":17200, "stock":15, "category": "cadenas"},
+    {"id":7 , "title": "Buda", "description":"Dije de acero y oro", 
+    "image":"images/dijebuda.jpeg", 
+    "prize":1000, "stock":16, "category": "dijes"},
+    {"id":8 , "title": "Cruz inflada", "description":"Dije de plata inflada", 
+    "image":"images/dijecruz.jpeg", 
+    "prize":4670, "stock":18, "category": "dijes"},
+    {"id":9 , "title": "Mariquita", "description":"Dije de acero y plata", 
+    "image":"images/dijevaquita.jpeg", 
+    "prize":3400, "stock":9, "category": "dijes"},
+    {"id":10 , "title": "Buhós", "description":"Pulsera de acero con detalles en plata", 
+    "image":"images/pulserabuhos.jpeg", 
+    "prize":8000, "stock":5, "category": "pulseras"},
+    {"id":11 , "title": "Calaveras", "description":"Pulsera de acero", 
+    "image":"images/pulseracalaveras.jpeg", 
+    "prize":10000, "stock":4, "category": "pulseras"},
+    {"id":12 , "title": "Rolo", "description":"Pulsera de plata", 
+    "image":"images/pulserarolo.jpeg", 
+    "prize":9500, "stock":15, "category": "pulseras"}
+
+]

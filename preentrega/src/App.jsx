@@ -1,5 +1,5 @@
 import './index.css'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Footer from './components/Footer'
 import NavBar from './components/NavBar'
@@ -7,6 +7,7 @@ import Promociones from './components/Promociones'
 import Banner from './components/Banner'
 import Banner2 from './components/Banner2'
 import ItemListContainer from './components/ItemListContainer'
+import ItemCount from './components/ItemCount';
 
 function App() {
   
@@ -16,7 +17,8 @@ function App() {
       <Promociones/>
       <NavBar/>
       <Banner/> 
-      <ItemListContainer texto={"¿Te gustaría darte un gusto?"}/>
+      <ItemCount stock = {10}/>
+      <ItemListContainer/>
       <Banner2/>
       <Footer/>
     </>

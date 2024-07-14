@@ -1,8 +1,30 @@
-const ItemListContainer = ({texto}) => {
+import { useEffect, useState } from "react";
+import arrayProductos from "../assets/images/json/productos.json"
+import ItemList from "./ItemList";
+
+const ItemListContainer = () => {
+
+    const [items, setItems] = useState([]);;
+
+    useEffect(() => {
+        const promesa = new Promise(resolve => {
+            setTimeout(() => {
+                resolve(arrayProductos)
+            }, 2000)
+        })
+        promesa.then(response => {
+            setItems(response)
+            
+        })
+    }, [])
     return (
-        
-            <h2 style={{color:"black",padding:"20px",textTransform:"uppercase", textAlign:"center"}}>{texto}</h2>
-        
+
+        <>
+                <ItemList items={items}/>
+
+        </>
+
+
     )
 }
 
