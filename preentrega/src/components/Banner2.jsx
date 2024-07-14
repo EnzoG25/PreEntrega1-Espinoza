@@ -11,13 +11,13 @@ const Banner2 = () => {
             <div id="carouselExampleFade" className="carousel slide carousel-fade ">
                 <div className="carousel-inner pb-20">
                     <div className="carousel-item active ">
-                        <img src={imgCarU} className="d-block w-60 " alt="anillocorazones"/>
+                        <img src={imgCarU} className="img-fluid" alt="anillocorazones" />
                     </div>
                     <div className="carousel-item">
-                        <img src={imgCarD} className="d-block w-60 " alt="anillorombo"/>
+                        <img src={imgCarD} className="img-fluid" alt="anillorombo"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={imgCarT} className="d-block w-60 " alt="anillosello"/>
+                        <img src={imgCarT} className="img-fluid" alt="anillosello"/>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

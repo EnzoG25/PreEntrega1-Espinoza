@@ -1,5 +1,6 @@
 import CardWidget from "./CardWidget"
 import imagend from "../assets/images/diamante.png"
+import { Link, NavLink } from "react-router-dom"
 const NavBar = () => {
 
     return (
@@ -7,21 +8,27 @@ const NavBar = () => {
             <div id="contenedor1" className="container">
                 <div className="row">
                     <div className="col">
-                    <img src={imagend} alt="logodiamante" width={100}/>
+                    <Link to={"/"}>
+                        <img src={imagend} alt="logodiamante" width={100}/>
+                    </Link>
+                    
+                    
+                    
+                    
                     </div>
                     <div className="col">
                         <ul className="nav justify-content-center">
                             <li className="nav-item ">
-                                <a className="nav-link text-black" aria-current="page" href="#">Anillos</a>
+                                <NavLink to={"./category/anillos"} className="nav-link text-black" aria-current="page">Anillos</NavLink>
                             </li>
                             <li className="nav-item ">
-                                <a className="nav-link text-black" href="#">Pulseras</a>
+                                <NavLink to={"./category/pulseras"} className="nav-link text-black">Pulseras</NavLink>
                             </li>
                             <li className="nav-item text-black">
-                                <a className="nav-link text-black" href="#">Cadenas</a>
+                                <NavLink to={"./category/cadenas"} className="nav-link text-black" >Cadenas</NavLink>
                             </li>
                             <li className="nav-item text-black">
-                                <a className="nav-link text-black"  href="#">Dijes</a>
+                                <NavLink to={"./category/dijes"} className="nav-link text-black"  >Dijes</NavLink>
                             </li>
                             
                         </ul>
